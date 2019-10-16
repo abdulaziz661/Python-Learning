@@ -13,6 +13,5 @@ class Person:
    def changeAge(self, age):
         self.age = self.age + 1 
 
-Person('Jane Doe','F',23)               
+p1 = Person('Jane Doe','F',23)               
 
-print('person : ' + str(Person))  
